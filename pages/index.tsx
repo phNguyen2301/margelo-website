@@ -2,6 +2,8 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import AboutUS from '../components/aboutus';
 import Masthead from '../components/masterhead';
+import Skills from '../components/skills';
+import Works from '../components/works';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +15,8 @@ const Home: NextPage = () => {
       </Head>
       <Masthead />
       <AboutUS />
+      <Skills />
+      <Works />
     </div>
   );
 };
