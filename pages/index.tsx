@@ -1,8 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import AboutUS from '../components/aboutus';
+import ContactUs from '../components/contactus';
+import Footer from '../components/footer';
 import Masthead from '../components/masterhead';
 import Skills from '../components/skills';
+import TrustedBy from '../components/trusedby';
 import Works from '../components/works';
 
 const Home: NextPage = () => {
@@ -17,6 +20,9 @@ const Home: NextPage = () => {
       <AboutUS />
       <Skills />
       <Works />
+      <TrustedBy />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };

@@ -22,7 +22,6 @@ const Works = () => (
             <WorkRight progress={progress}>
               <Image
                 src='/assets/works/pinkpanda.webp'
-                layout='responsive'
                 width={840}
                 height={1620}
                 alt='Pink Panda'
@@ -44,7 +43,6 @@ const Works = () => (
             <WorkRight progress={progress}>
               <Image
                 src='/assets/works/streakwallet.webp'
-                layout='responsive'
                 width={840}
                 height={1620}
                 alt='Streak Wallet'
@@ -66,7 +64,6 @@ const Works = () => (
             <WorkRight progress={progress}>
               <Image
                 src='/assets/works/showtime.webp'
-                layout='responsive'
                 width={840}
                 height={1620}
                 alt='Show Time'
